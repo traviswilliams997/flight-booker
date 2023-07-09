@@ -7,5 +7,5 @@ has_many :departing_flights,
 has_many :arriving_flights,
 class_name: "Flight", 
 foreign_key: :arrival_airport, 
-ependent: :destroy
+dependent: :destroy
 end
